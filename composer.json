@@ -1,0 +1,36 @@
+{
+    "name": "coding-monkeys-bv/laravel-nova-inline-text",
+    "description": "A Laravel Nova field which allows updating texts inline.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/nova": "^4.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodingMonkeysBv\\InlineText\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CodingMonkeysBv\\InlineText\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ]
+}
