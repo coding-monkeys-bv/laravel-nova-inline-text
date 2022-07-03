@@ -12,12 +12,8 @@
 </template>
 
 <script>
-import { FormField } from 'laravel-nova'
-
 export default {
     props: ['resourceName', 'field'],
-
-    mixins: [FormField],
 
     data() {
         return {
