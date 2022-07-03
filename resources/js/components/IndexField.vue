@@ -1,7 +1,7 @@
 <template>
     <input
         :id="field.name + field.id"
-        type="text"
+        :type="field.type"
         class="w-full form-control form-input form-input-bordered inline-text-field"
         :placeholder="field.name"
         v-model="value"

@@ -2,10 +2,17 @@
 
 A Laravel Nova field which allows updating texts inline.
 
+Installation:
+
+```
+composer require codingmonkeys/laravel-nova-inline-text
+```
+
 Example:
 
 ```
 InlineText::make('time')
+    ->type('time')
     ->placeholder('##:##')
     ->rules('date_format:"H:i"')
     ->successMessage('The time has been updated!')

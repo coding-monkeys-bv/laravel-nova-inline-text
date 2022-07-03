@@ -3,7 +3,7 @@
         <template #field>
             <input
                 :id="field.attribute"
-                type="text"
+                :type="field.type"
                 class="w-full form-control form-input form-input-bordered"
                 :class="errorClasses"
                 :placeholder="field.name"

@@ -42,7 +42,7 @@ class InlineText extends Field
      * Set resource ID.
      *
      * @param int $id
-     * @return void
+     * @return $this
      */
     protected function setResourceId($id)
     {
@@ -53,10 +53,21 @@ class InlineText extends Field
     }
 
     /**
+     * Set field type.
+     *
+     * @param string $type
+     * @return $this
+     */
+    public function type($type = 'text')
+    {
+        return $this->withMeta(['type' => $type]);
+    }
+
+    /**
      * Set minimum with of input.
      *
      * @param int $width
-     * @return void
+     * @return $this
      */
     public function minWidth($width = 100)
     {
