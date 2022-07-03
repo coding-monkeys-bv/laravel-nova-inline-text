@@ -13,4 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('/update/{resource}', 'CodingMonkeysBv\InlineText\Http\Controllers\InlineTextController@update');
+Route::post('/update/{resource}', 'CodingMonkeys\InlineText\Http\Controllers\InlineTextController@update');

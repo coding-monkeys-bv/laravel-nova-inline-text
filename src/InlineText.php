@@ -1,6 +1,6 @@
 <?php
 
-namespace CodingMonkeysBv\InlineText;
+namespace CodingMonkeys\InlineText;
 
 use Laravel\Nova\Fields\Field;
 

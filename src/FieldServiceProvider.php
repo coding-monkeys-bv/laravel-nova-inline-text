@@ -1,6 +1,6 @@
 <?php
 
-namespace CodingMonkeysBv\InlineText;
+namespace CodingMonkeys\InlineText;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;

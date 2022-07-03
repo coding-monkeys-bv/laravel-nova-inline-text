@@ -1,6 +1,6 @@
 <?php
 
-namespace CodingMonkeysBv\InlineText\Http\Controllers;
+namespace CodingMonkeys\InlineText\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Laravel\Nova\Http\Requests\NovaRequest;
