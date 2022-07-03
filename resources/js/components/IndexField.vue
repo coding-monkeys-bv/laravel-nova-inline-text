@@ -1,5 +1,6 @@
 <template>
     <input
+        @click.stop
         :id="field.name + field.id"
         :type="field.type"
         class="w-full form-control form-input form-input-bordered inline-text-field"

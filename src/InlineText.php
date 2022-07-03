@@ -3,8 +3,9 @@
 namespace CodingMonkeys\InlineText;
 
 use Laravel\Nova\Fields\Field;
+use Laravel\Nova\Fields\Text;
 
-class InlineText extends Field
+class InlineText extends Text
 {
     /**
      * The field's component.
