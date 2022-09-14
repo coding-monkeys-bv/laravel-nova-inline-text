@@ -5,7 +5,7 @@
         :type="field.type"
         class="w-full form-control form-input form-input-bordered inline-text-field"
         :placeholder="field.name"
-        v-model="value"
+        v-model="field.value"
         @blur="save"
         @keyup.enter="save"
         :style="'min-width:'+field.minWidth+'px;'"
@@ -34,13 +34,13 @@ export default {
                         value: this.value
                     }).then (function (response) {
                         vm.loading = false
-                        vm.field.value = vm.value
+                        vm.field.value = vm.value 
 
                         Nova.success(vm.field.successMessage);
                     }).catch (function (error) {
                         vm.loading = false
 
-                        if (error.response.status == 422) {
+                        if (error.response.status == 422) { 
                             let validationErrors = [];
 
                             error.response.data.errors.value.forEach(function (errorMessage) {

@@ -7,7 +7,7 @@
                 class="w-full form-control form-input form-input-bordered"
                 :class="errorClasses"
                 :placeholder="field.name"
-                v-model="value"
+                v-model="field.value"
             />
         </template>
     </DefaultField>
